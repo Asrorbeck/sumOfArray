@@ -20,8 +20,8 @@ function longestWord(array) {
 
     for (let i = 0; i < array.length; i++) {
 
-        if (array[i].length > asror) {
-            asror = array[i].length
+        if (array[i].length > asror.length) {
+            asror = array[i]
         }
     }
     console.log(asror); 
@@ -29,4 +29,4 @@ function longestWord(array) {
 
 var mainResult = longestWord(mainWords);
 
-alert("Console ga Kiring! (Console da eng kop harfi bor so'zning nechta harfi borligi va arrayga kiritilgan sonlarining yig'indisi ko'rsatilgan) ")
+alert("Console ga Kiring! ")
